@@ -1,0 +1,221 @@
+{
+  "total_rows": 7515,
+  "total_columns": 13,
+  "exact_duplicates": 15,
+  "logical_duplicates": 15,
+  "columns": [
+    {
+      "Column Name": "property_id",
+      "Data Type": "int64",
+      "Null Count": "0",
+      "Null Percentage (%)": "0.0",
+      "Distinct Values": "2500"
+    },
+    {
+      "Column Name": "property_name",
+      "Data Type": "object",
+      "Null Count": "0",
+      "Null Percentage (%)": "0.0",
+      "Distinct Values": "2500"
+    },
+    {
+      "Column Name": "borough",
+      "Data Type": "object",
+      "Null Count": "0",
+      "Null Percentage (%)": "0.0",
+      "Distinct Values": "9"
+    },
+    {
+      "Column Name": "primary_property_type_self_selected",
+      "Data Type": "object",
+      "Null Count": "0",
+      "Null Percentage (%)": "0.0",
+      "Distinct Values": "12"
+    },
+    {
+      "Column Name": "gross_floor_area_buildings_sq_ft",
+      "Data Type": "float64",
+      "Null Count": "49",
+      "Null Percentage (%)": "0.65",
+      "Distinct Values": "2276"
+    },
+    {
+      "Column Name": "site_eui_kbtu_ft\u00b2",
+      "Data Type": "float64",
+      "Null Count": "82",
+      "Null Percentage (%)": "1.09",
+      "Distinct Values": "4881"
+    },
+    {
+      "Column Name": "source_eui_kbtu_ft\u00b2",
+      "Data Type": "float64",
+      "Null Count": "82",
+      "Null Percentage (%)": "1.09",
+      "Distinct Values": "6067"
+    },
+    {
+      "Column Name": "total_ghg_emissions_metric_tons_co2e",
+      "Data Type": "float64",
+      "Null Count": "0",
+      "Null Percentage (%)": "0.0",
+      "Distinct Values": "7221"
+    },
+    {
+      "Column Name": "water_use_kgal",
+      "Data Type": "float64",
+      "Null Count": "1111",
+      "Null Percentage (%)": "14.78",
+      "Distinct Values": "6365"
+    },
+    {
+      "Column Name": "energy_star_score",
+      "Data Type": "float64",
+      "Null Count": "384",
+      "Null Percentage (%)": "5.11",
+      "Distinct Values": "100"
+    },
+    {
+      "Column Name": "reporting_year",
+      "Data Type": "int64",
+      "Null Count": "0",
+      "Null Percentage (%)": "0.0",
+      "Distinct Values": "3"
+    },
+    {
+      "Column Name": "bbl_10_digits_",
+      "Data Type": "int64",
+      "Null Count": "0",
+      "Null Percentage (%)": "0.0",
+      "Distinct Values": "2500"
+    },
+    {
+      "Column Name": "bin",
+      "Data Type": "int64",
+      "Null Count": "0",
+      "Null Percentage (%)": "0.0",
+      "Distinct Values": "2500"
+    }
+  ],
+  "numeric_profiles": [
+    {
+      "Attribute": "property_id",
+      "Min": 1000001.0,
+      "Q25": 1000626.0,
+      "Median": 1001250.0,
+      "Mean": 1001250.56,
+      "Q75": 1001875.5,
+      "Max": 1002500.0,
+      "Zeros": 0,
+      "Negatives": 0,
+      "IQR Outliers": 0
+    },
+    {
+      "Attribute": "gross_floor_area_buildings_sq_ft",
+      "Min": 25000.0,
+      "Q25": 44294.0,
+      "Median": 74720.0,
+      "Mean": 103225.62,
+      "Q75": 126017.0,
+      "Max": 1594682.0,
+      "Zeros": 0,
+      "Negatives": 0,
+      "IQR Outliers": 516
+    },
+    {
+      "Attribute": "site_eui_kbtu_ft\u00b2",
+      "Min": 16.76,
+      "Q25": 64.88,
+      "Median": 77.47,
+      "Mean": 90.66,
+      "Q75": 90.91,
+      "Max": 3527.75,
+      "Zeros": 0,
+      "Negatives": 0,
+      "IQR Outliers": 407
+    },
+    {
+      "Attribute": "source_eui_kbtu_ft\u00b2",
+      "Min": 31.09,
+      "Q25": 135.97,
+      "Median": 165.17,
+      "Mean": 174.44,
+      "Q75": 197.1,
+      "Max": 755.75,
+      "Zeros": 0,
+      "Negatives": 0,
+      "IQR Outliers": 298
+    },
+    {
+      "Attribute": "total_ghg_emissions_metric_tons_co2e",
+      "Min": 24.46,
+      "Q25": 208.5,
+      "Median": 370.67,
+      "Mean": 550.36,
+      "Q75": 650.91,
+      "Max": 10318.95,
+      "Zeros": 0,
+      "Negatives": 0,
+      "IQR Outliers": 574
+    },
+    {
+      "Attribute": "water_use_kgal",
+      "Min": 379.1,
+      "Q25": 1448.43,
+      "Median": 2637.07,
+      "Mean": 3835.02,
+      "Q75": 4722.77,
+      "Max": 92980.23,
+      "Zeros": 0,
+      "Negatives": 0,
+      "IQR Outliers": 423
+    },
+    {
+      "Attribute": "energy_star_score",
+      "Min": 1.0,
+      "Q25": 58.0,
+      "Median": 67.0,
+      "Mean": 66.15,
+      "Q75": 77.0,
+      "Max": 100.0,
+      "Zeros": 0,
+      "Negatives": 0,
+      "IQR Outliers": 220
+    },
+    {
+      "Attribute": "reporting_year",
+      "Min": 2022.0,
+      "Q25": 2022.0,
+      "Median": 2023.0,
+      "Mean": 2023.0,
+      "Q75": 2024.0,
+      "Max": 2024.0,
+      "Zeros": 0,
+      "Negatives": 0,
+      "IQR Outliers": 0
+    },
+    {
+      "Attribute": "bbl_10_digits_",
+      "Min": 1103202524.0,
+      "Q25": 2356081247.5,
+      "Median": 3624731307.0,
+      "Mean": 3585565447.36,
+      "Q75": 4785148088.5,
+      "Max": 5999163745.0,
+      "Zeros": 0,
+      "Negatives": 0,
+      "IQR Outliers": 0
+    },
+    {
+      "Attribute": "bin",
+      "Min": 1000774.0,
+      "Q25": 2244314.0,
+      "Median": 3428224.0,
+      "Mean": 3484851.88,
+      "Q75": 4746603.0,
+      "Max": 5999456.0,
+      "Zeros": 0,
+      "Negatives": 0,
+      "IQR Outliers": 0
+    }
+  ]
+}

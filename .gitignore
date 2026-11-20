@@ -1,0 +1,42 @@
+# Data files (large — use Git LFS or exclude)
+data/raw/*.csv
+data/raw/*.json
+data/curated/*.csv
+data/mart/*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Docker volumes
+docker/postgres_data/
+docker/clickhouse_data/
+docker/grafana_data/
+docker/citus_data/
+
+# Spark
+spark-warehouse/
+derby.log
+metastore_db/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,37 @@
+[
+  {
+    "attribute": "All Attributes",
+    "issue": "Exact duplicates",
+    "treatment": "Removed",
+    "affected_rows": 15,
+    "rationale": "Remove identical redundant records"
+  },
+  {
+    "attribute": "GrossFloorArea",
+    "issue": "Missing or zero floor area",
+    "treatment": "Excluded",
+    "affected_rows": 49,
+    "rationale": "Required for EUI and intensity normalizations"
+  },
+  {
+    "attribute": "SiteEUI/SourceEUI",
+    "issue": "Both EUI metrics missing",
+    "treatment": "Excluded",
+    "affected_rows": 81,
+    "rationale": "Cannot calculate energy performance without EUI"
+  },
+  {
+    "attribute": "SiteEUI",
+    "issue": "Extreme measurement outlier",
+    "treatment": "Capped at 99th pct (288.50)",
+    "affected_rows": 74,
+    "rationale": "Prevent undue leverage on statistical models"
+  },
+  {
+    "attribute": "Borough",
+    "issue": "Inconsistent abbreviations",
+    "treatment": "Mapped to standard full name",
+    "affected_rows": 7370,
+    "rationale": "Ensure dimensional referential integrity"
+  }
+]
